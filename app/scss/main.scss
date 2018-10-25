@@ -1,8 +1,8 @@
 @import "vars";
 @import "fonts";
 @import "libs";
-$leftw:330px;
-$rightw:290px;
+$leftw:26%;
+$rightw:23%;
 * {
 	padding: 0;
 	margin: 0;
@@ -22,15 +22,13 @@ $rightw:290px;
     float: left;
     overflow: hidden;
 }
-.gallery__image{
+img{
 	display:block;
 	margin:0 auto;
+
 }
 main {
-    padding: 0 $rightw 0 $leftw;
-    .article {
-		margin:30px 0;
-	}
+    padding: 30px $rightw 30px $leftw;
 }
 .bar{
 	float: left;
@@ -69,20 +67,20 @@ main {
 	display:block;
 }
 main {
-    padding:0 0 0 227px;
+    padding:30px 15px 0 29.6%;
 }
 .gallery__image{
 	width:165px;
 }
 .image-wrapper {
 	margin: 30px 13px 13px 15px;
-	width:199px;
+
 }
 .bar__image {
 	width:199px;
 }
 .bar {
-	width:227px;
+	width:29.6%;
 }        
 .right {
 	margin: 0;
@@ -99,17 +97,14 @@ main {
 	display: block;
 } 
 main {
-    padding:0;
-    .article {
-		margin:20px 15px;
-	}
+    padding:20px 10px 0 10px;
 }
 .gallery__image {
 	width:100%;
 }
 .image-wrapper {
 	margin: 0 0 20px 0;
-	padding:0 15px;
+	padding:0 10px;
 }
 .bar__image {
 	width:100%;
